@@ -1,5 +1,5 @@
 export class HolbertonClass {
-  constructor(year, location) {
+  constructor(year, location){
     this._year = year;
     this._location = location;
   }
@@ -22,7 +22,6 @@ export class StudentHolberton {
     this._lastName = lastName;
     this._holbertonClass = holbertonClass;
   }
-
   get fullName() {
     return `${this._firstName} ${this._lastName}`;
   }
