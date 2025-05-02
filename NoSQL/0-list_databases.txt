@@ -1,0 +1,3 @@
+// 0-list_database
+show dbs
+quit()
